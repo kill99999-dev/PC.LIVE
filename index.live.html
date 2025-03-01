@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OS</title>
+    <style>
+        html{
+            width: 100%;
+            height: 100%;
+            background-image: url("bg.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        window#window1{
+            border-width: 5px;
+            border-radius: 5px;
+            background-image: url("bg.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 800px;
+            height: 600px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            color: white;
+        }
+        window-bar#window1{
+            height: 30px;
+            width: 800px;
+            background-color: #0f0;
+            border-radius: 5px;
+            border-top: 5px;
+        }
+        close#window1{
+            background-color: red;
+            width: 30px;
+            height: 30px;
+            font-size: auto;
+            position: relative;
+            top: 0px;
+            left: 770px;
+            color: white;
+            font-family: Consolas;
+        }
+    </style>
+</head>
+<body>
+    <window id="window1">
+        <window-bar id="window1">
+            <close id="window1">X</close>
+        </window-bar>
+    </window>
+</body>
+</html>
