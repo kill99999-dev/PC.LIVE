@@ -14,8 +14,6 @@
             background-size: cover;
         }
         #window1{
-            border-width: 5px;
-            border-radius: 5px;
             background-image: url("bg.svg");
             background-repeat: no-repeat;
             background-position: center;
@@ -26,6 +24,7 @@
             top: 0px;
             left: 0px;
             color: white;
+            z-index: 0;
         }
         #window1bar{
             position: absoulute;
@@ -35,8 +34,7 @@
             width: 800px;
             background-color: #00f;
             background-size: cover;
-            border-radius: 5px;
-            border-top: 5px;
+            z-index: 1;
         }
         #window1close{
             background-color: #f00;
@@ -49,6 +47,7 @@
             left: 770px;
             color: white;
             font-family: Consolas;
+            z-index: 2;
         }
     </style>
 </head>
